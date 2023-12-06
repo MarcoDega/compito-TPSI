@@ -1,0 +1,33 @@
+
+.row {
+    display: flex;
+}
+
+#main {
+    background-color: green;
+    margin-top: 10;
+    margin-bottom: 10;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+
+.row div {
+    flex: 1;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-weight: 30px;
+    background-color:purple;
+    border-color: blue;
+    border-radius: 30px;
+    padding: 47px;
+    margin: 25px;
+    width: 80%;
+}
+
+.display{
+    color: beige;
+    background-color: red;
+    padding: 0em;
+}
